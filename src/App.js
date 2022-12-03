@@ -9,13 +9,14 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Footer from "./components/Footer";
 import Quote from "./pages/Quote";
+import Navbar_Cedonia from "./components/Navbar_Cedonia";
 
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar_Cedonia />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
