@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
     return (
         <div className="bg-white p-6 lg:px-8">
-
             <div>
                 <nav className="flex h-9 items-center justify-between" aria-label="Global">
                     <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
