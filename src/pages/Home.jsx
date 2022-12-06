@@ -6,15 +6,15 @@ export default function Home() {
     return (
         <div className="isolate bg-white ">
             <main>
-                <div className="relative h-screen">
-                    <div className='absolute z-[-99] overflow-hidden'>
+                <div className="relative h-screen myImg">
+                    <div className='hidden sm:flex absolute z-[-60] overflow-hidden'>
                         <video autoPlay muted loop id='myVideo'>
                             <source src={Video}></source>
                         </video>
                     </div>
-                    <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40 drop">
+                    <div className="mx-auto max-w-3xl pb-32 pt-60 sm:pb-40 drop">
                         <div>
-                            <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+                            <div className="hidden sm:mb-4 sm:flex sm:justify-center">
                                 <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 text-white ring-1 ring-white hover:ring-red-500 hover:text-white transition">
                                     <span className="text-white">
                                         Learn more about us here. {' '}
@@ -26,15 +26,15 @@ export default function Home() {
                                 </div>
                             </div>
                             <div>
-                                <h1 className="text-white text-4xl font-bold tracking-tight sm:text-center sm:text-7xl">
+                                <h1 className="text-white text-5xl font-bold tracking-tight text-center sm:text-7xl">
                                     Welcome to Cedonia
                                 </h1>
-                                <h2 className="text-2xl font-bold tracking-tight sm:text-center sm:text-2xl text-red-600">Experts in Custom Project Management and CNC Machining. </h2>
-                                <p className="mt-6 text-lg leading-8 text-white sm:text-center">
+                                <h2 className="text-2xl font-bold tracking-tight text-center sm:text-2xl p-2 text-red-600">Experts in Custom Project Management and CNC Machining. </h2>
+                                <p className=" text-lg leading-8 text-white p-2 text-center">
                                     Based in Ontario, Canada, Cedonia has been in the business of custom machining and project management since 1996.
                                     We have been serving a large base of multi-industry clients, including several players in the automotive, aerospace, nuclear, military, pharmaceutical, mining and construction space.
                                 </p>
-                                <div className="mt-8 flex gap-x-4 sm:justify-center">
+                                <div className="mt-8 flex gap-x-4 justify-center">
                                     <a
                                         href="/services"
                                         className="inline-block rounded-lg bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-600 hover:bg-red-700 hover:ring-red-700"

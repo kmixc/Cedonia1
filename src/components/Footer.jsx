@@ -1,17 +1,45 @@
 import React from 'react'
-import { Link } from "react-router-dom";
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { RiInstagramFill, RiTwitterFill, RiYoutubeFill } from 'react-icons/ri'
+import { AiOutlineMail, AiOutlineHome, AiOutlinePhone } from 'react-icons/ai'
 
 export default function Footer() {
     return (
         <div>
-            <nav class="bg-black text-white px-10 pt-10 pb-5 tracking-tight ">
+            <nav class="bg-black text-white px-2 pt-10 pb-5 tracking-tight ">
                 <div class="container flex justify-between mx-auto">
                     <div className='flex flex-col items-start'>
                         <span class="text-3xl tracking-tight font-bold">Cedonia</span>
-                        <span class="text-m tracking-tight">Custom machining and project management since 1996</span>
+                        <span class="text-m tracking-tight text-sm">Custom machining and project management since 1996</span>
+                    </div>
+                    <div>
+                        <div className='flex items-start flex-col justify-center'>
+                            <div className='flex items-center text-sm'>
+                                <AiOutlineMail size={"2em"} />
+                                <p className='m-1' target="social" href="#">
+                                    Meet Us:
+                                    2405 Lucknow Drive,
+                                    Mississauga, On, L5S 1H9
+                                </p>
+                            </div>
+                            <div className='flex items-center text-sm'>
+                                <AiOutlineHome size={"2em"} />
+                                <p className='m-1' target="social" href="#">
+                                    Call Us:
+                                </p>
+                                <a href="tel:905-564-2033" className='text-red-500 underline hover:text-red-700'>
+                                    905-564-2033
+                                </a>
+                            </div>
+                            <div className='flex items-center text-sm'>
+                                <AiOutlinePhone size={"2em"} />
+                                <p className='m-1' target="social" href="#">
+                                    Mail Us:
+                                </p>
+                                <a href="mailto:" className='text-red-500 underline '>
+                                    inquiries@cedonia.ca
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div className='font-bold'>
                         <div className='flex items-center sm:flex-row flex-col justify-center'>
