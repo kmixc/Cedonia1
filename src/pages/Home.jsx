@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaCogs, FaUserAlt, FaCertificate, FaTools, FaRocket, FaHandshake, } from "react-icons/fa"
 import Video from "../img/Landscape.mp4"
+import { Link } from "react-router-dom";
 
 export default function Home() {
     return (
@@ -60,88 +61,96 @@ export default function Home() {
                 </div>
             </main >
 
-            <div className="bg-gray-100 py-24 sm:py-32 lg:py-40">
-                <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                    <div className="sm:text-center">
-                        <h2 className="text-lg font-semibold leading-8 text-red-600">Cedonia</h2>
-                        <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Services</p>
-                        <p className="mx-auto mt-6 max-w-6xl text-lg leading-8 text-gray-600">
-                            As specialists in the design and manufacturing of high precision, high-quality, complex parts and products, we are confident of
-                            meeting diverse, custom machining needs for an extensive range of projects. From milling, turning and grinding, to welding, drilling and CAD/ CAM, we have
-                            the technical expertise and in-house capabilities to provide best-in-class services, at competitive prices, in the shortest possible time.
-                        </p>
-                    </div>
-
-                    <div className="mt-20 max-w-lg sm:mx-auto md:max-w-none">
-                        <div className="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-x-12 md:gap-y-16">
-                            <div className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
-                                <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-red-500 text-white sm:shrink-0">
-                                    <FaCogs size={"2em"} />
-                                </div>
-                                <div className="sm:min-w-0 sm:flex-1">
-                                    <p className="text-3xl font-semibold leading-8 text-gray-900">Diverse Machining</p>
-                                    <p className="mt-2 text-base leading-7 text-gray-600">Cedonia has been in the business of custom machining since 1996. We have the capabilities.</p>
-                                </div>
-                            </div>
-
-                            <div className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
-                                <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-red-500 text-white sm:shrink-0">
-                                    <FaUserAlt size={"2em"} />
-                                </div>
-                                <div className="sm:min-w-0 sm:flex-1">
-                                    <p className="text-3xl font-semibold leading-8 text-gray-900">Core Capabilities</p>
-                                    <p className="mt-2 text-base leading-7 text-gray-600">With the latest, future-ready machines and over 240 years of collective experience and technical expertise.</p>
-                                </div>
-                            </div>
-
-                            <div className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
-                                <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-red-500 text-white sm:shrink-0">
-                                    <FaTools size={"2em"} />
-                                </div>
-                                <div className="sm:min-w-0 sm:flex-1">
-                                    <p className="text-3xl font-semibold leading-8 text-gray-900">Materials</p>
-                                    <p className="mt-2 text-base leading-7 text-gray-600">We have successfully worked with a variety of materials, including: · Carbon Steel</p>
-                                </div>
-                            </div>
-
-                            <div className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
-                                <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-red-500 text-white sm:shrink-0">
-                                    <FaCertificate size={"2em"} />
-                                </div>
-                                <div className="sm:min-w-0 sm:flex-1">
-                                    <p className="text-3xl font-semibold leading-8 text-gray-900">Quality Control</p>
-                                    <p className="mt-2 text-base leading-7 text-gray-600">When it comes to machining and fabrication, both, quality and precision are paramount.</p>
-                                </div>
-                            </div>
-
-                            <div className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
-                                <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-red-500 text-white sm:shrink-0">
-                                    <FaRocket size={"2em"} />
-                                </div>
-                                <div className="sm:min-w-0 sm:flex-1">
-                                    <p className="text-3xl font-semibold leading-8 text-gray-900">Lead Times</p>
-                                    <p className="mt-2 text-base leading-7 text-gray-600">While we deliver standard requirements in 1 to 4 weeks based on the nature of the project.</p>
-                                </div>
-                            </div>
-
-                            <div className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
-                                <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-red-500 text-white sm:shrink-0">
-                                    <FaHandshake size={"2em"} />
-                                </div>
-                                <div className="sm:min-w-0 sm:flex-1">
-                                    <p className="text-3xl font-semibold leading-8 text-gray-900">Ancillary Services</p>
-                                    <p className="mt-2 text-base leading-7 text-gray-600">Over the years, our clients have become a part of the extended family at Cedonia.</p>
-                                </div>
+            <div class="p-16 px-6 mx-auto bg-zinc-100">
+                <div class="mb-16 text-center">
+                    <h2 class="text-base font-semibold tracking-wide text-red-600 uppercase">
+                        Cedonia
+                    </h2>
+                    <p class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-zinc-900 sm:text-4xl">
+                        Our Services
+                    </p>
+                </div>
+                <div class="flex flex-wrap my-12">
+                    <div class="w-full p-8 border-b md:w-1/2 md:border-r lg:w-1/3">
+                        <div class="flex items-center mb-6">
+                            <FaCogs size={"2em"} className="text-red-500" />
+                            <div class="ml-4 font-semibold text-zinc-900 text-xl">
+                                Diverse Machining
                             </div>
                         </div>
+                        <p class="leading-loose text-zinc-500 text-md">
+                            Cedonia has been in the business of custom machining since 1996. We have the capabilities.
+                        </p>
+                    </div>
+                    <div class="w-full p-8 border-b md:w-1/2 lg:w-1/3 lg:border-r">
+                        <div class="flex items-center mb-6">
+                            <FaUserAlt size={"2em"} className="text-red-500" />
+
+                            <div class="ml-4 font-semibold text-zinc-900 text-xl">
+                                Core Capabilities
+                            </div>
+                        </div>
+                        <p class="leading-loose text-zinc-500 text-md">
+                            With the latest, future-ready machines and over 240 years of collective experience and technical expertise.
+                        </p>
+                    </div>
+                    <div class="w-full p-8 border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0">
+                        <div class="flex items-center mb-6">
+                            <FaTools size={"2em"} className="text-red-500" />
+
+                            <div class="ml-4 font-semibold text-zinc-900 text-xl">
+                                Materials
+                            </div>
+                        </div>
+                        <p class="leading-loose text-zinc-500 text-md">
+                            We have successfully worked with a variety of materials.
+                        </p>
+                    </div>
+                    <div class="w-full p-8 border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0">
+                        <div class="flex items-center mb-6">
+                            <FaCertificate size={"2em"} className="text-red-500" />
+
+                            <div class="ml-4 font-semibold text-zinc-900 text-xl">
+                                Quality Control
+                            </div>
+                        </div>
+                        <p class="leading-loose text-zinc-500 text-md">
+                            When it comes to machining and fabrication, both, quality and precision are paramount.
+                        </p>
+                    </div>
+                    <div class="w-full p-8 border-b md:w-1/2 md:border-r md:border-b-0 lg:w-1/3 lg:border-b-0">
+                        <div class="flex items-center mb-6">
+                            <FaRocket size={"2em"} className="text-red-500" />
+
+                            <div class="ml-4 font-semibold text-zinc-900 text-xl">
+                                Lead Times
+                            </div>
+                        </div>
+                        <p class="leading-loose text-zinc-500 text-md">
+                            While we deliver standard requirements in 1 to 4 weeks based on the nature of the project.
+                        </p>
+                    </div>
+                    <div class="w-full p-8 md:w-1/2 lg:w-1/3">
+                        <div class="flex items-center mb-6">
+                            <FaHandshake size={"2em"} className="text-red-500" />
+
+                            <div class="ml-4 font-semibold text-zinc-900 text-xl">
+                                Ancillary Services
+                            </div>
+                        </div>
+                        <p class="leading-loose text-zinc-500 text-md">
+                            Over the years, our clients have become a part of the extended family at Cedonia.
+                        </p>
                     </div>
                 </div>
             </div>
 
-            <div className="bg-gray-200">
+
+
+            <div className="bg-zinc-200">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-                        <h2 className="text-2xl font-bold text-gray-900">Our Clients</h2>
+                        <h2 className="text-2xl font-bold text-zinc-900">Our Clients</h2>
 
                         <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
                             <div className="group relative">
@@ -152,13 +161,13 @@ export default function Home() {
                                         className="h-fit w-80 object-contain object-center"
                                     />
                                 </div>
-                                <h3 className="mt-6 text-sm text-gray-500">
+                                <h3 className="mt-6 text-sm text-zinc-500">
                                     <a>
                                         <span className="absolute inset-0" />
                                         Nuclear power
                                     </a>
                                 </h3>
-                                <p className="text-base font-semibold text-gray-900">Candu Energy Inc</p>
+                                <p className="text-base font-semibold text-zinc-900">Candu Energy Inc</p>
                             </div>
                             <div className="group relative">
                                 <div className="relative flex items-center justify-center h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
@@ -168,13 +177,13 @@ export default function Home() {
                                         className="h-fit w-72 object-contain object-center"
                                     />
                                 </div>
-                                <h3 className="mt-6 text-sm text-gray-500">
+                                <h3 className="mt-6 text-sm text-zinc-500">
                                     <a>
                                         <span className="absolute inset-0" />
                                         Aircraft modifiers to the world
                                     </a>
                                 </h3>
-                                <p className="text-base font-semibold text-gray-900">Field Aviation</p>
+                                <p className="text-base font-semibold text-zinc-900">Field Aviation</p>
                             </div>
                             <div className="group relative">
                                 <div className="relative flex items-center justify-center h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
@@ -184,13 +193,13 @@ export default function Home() {
                                         className="h-fit w-fit object-contain object-center"
                                     />
                                 </div>
-                                <h3 className="mt-6 text-sm text-gray-500">
+                                <h3 className="mt-6 text-sm text-zinc-500">
                                     <a>
                                         <span className="absolute inset-0" />
                                         Leading provider of aircraft insurance
                                     </a>
                                 </h3>
-                                <p className="text-base font-semibold text-gray-900">Global Aerospace</p>
+                                <p className="text-base font-semibold text-zinc-900">Global Aerospace</p>
                             </div>
                         </div>
 
@@ -203,13 +212,13 @@ export default function Home() {
                                         className="h-fit w-80 object-contain object-center"
                                     />
                                 </div>
-                                <h3 className="mt-6 text-sm text-gray-500">
+                                <h3 className="mt-6 text-sm text-zinc-500">
                                     <a>
                                         <span className="absolute inset-0" />
                                         Canadian parts manufacturer for automakers
                                     </a>
                                 </h3>
-                                <p className="text-base font-semibold text-gray-900">Magna International Inc</p>
+                                <p className="text-base font-semibold text-zinc-900">Magna International Inc</p>
                             </div>
                             <div className="group relative">
                                 <div className="relative flex items-center justify-center h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
@@ -219,18 +228,108 @@ export default function Home() {
                                         className="h-fit w-80 object-contain object-center"
                                     />
                                 </div>
-                                <h3 className="mt-6 text-sm text-gray-500">
+                                <h3 className="mt-6 text-sm text-zinc-500">
                                     <a>
                                         <span className="absolute inset-0" />
                                         International space mission partner and robotics, satellite systems & geointelligence
                                     </a>
                                 </h3>
-                                <p className="text-base font-semibold text-gray-900">MDA Corporation</p>
+                                <p className="text-base font-semibold text-zinc-900">MDA Corporation</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+
+            <section>
+                <div class="p-4 bg-zinc-300 max-w-screen sm:p-6 lg:p-8">
+                    <div class="flex flex-wrap ">
+                        <div class="w-full px-8 lg:w-1/2 flex items-center">
+                            <div class="pb-12 mb-6 lg:mb-0 lg:pb-0">
+                                <h2 class="mb-4 text-6xl font-bold lg:text-6xl text-zinc-900 font-heading">
+                                    Why Choose Us?
+                                </h2>
+                                <p class="mb-8 text-xl leading-loose text-zinc-500">
+                                    Under the leadership of our owners, Aurel Nistor and Valentin Dinoiu, Cedonia has been growing from strength to strength. What makes us the ideal partners for your custom machining projects?
+                                </p>
+                                <div class="w-full md:w-1/3">
+                                    <Link to="/contact" class=" py-4 px-6 bg-red-600 hover:bg-red-700 focus:ring-red-500 focus:ring-offset-red-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg ">
+                                        See more
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full px-8 lg:w-1/2">
+                            <ul class="space-y-4">
+                                <li class="flex -mx-4">
+                                    <div class="px-4 flex items-center">
+                                        <span class="flex items-center justify-center w-16 h-16 mx-auto text-2xl font-bold text-red-600 rounded-full font-heading bg-white">
+                                            1
+                                        </span>
+                                    </div>
+                                    <div class="px-4">
+                                        <h3 class="mt-4 text-xl text-zinc-900 font-semibold">
+                                            Our Staff
+                                        </h3>
+                                        <p class="leading-loose text-zinc-500">
+                                            With solid technical backgrounds and deep experience spanning multiple continents, our team of expert technicians can offer solutions to help you stay ahead of the curve.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="flex -mx-4">
+                                    <div class="px-4 flex items-center">
+                                        <span class="flex items-center justify-center w-16 h-16 mx-auto text-2xl font-bold text-red-600 rounded-full font-heading bg-white">
+                                            2
+                                        </span>
+                                    </div>
+                                    <div class="px-4">
+                                        <h3 class="mt-4 text-xl text-zinc-900 font-semibold">
+                                            Our Technological Capabilities
+                                        </h3>
+                                        <p class="leading-loose text-zinc-500">
+                                            In addition to regular maintenance and upgrade of our existing capabilities, we invest in future-ready machines, ancillary equipment and technology that aim for quick payoffs and excellent production efficiencies.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="flex -mx-4">
+                                    <div class="px-4 flex items-center">
+                                        <span class="flex items-center justify-center w-16 h-16 mx-auto text-2xl font-bold text-red-600 rounded-full font-heading bg-white">
+                                            3
+                                        </span>
+                                    </div>
+                                    <div class="px-4">
+                                        <h3 class="mt-4 text-xl text-zinc-900 font-semibold">
+                                            Our Quality Promise
+                                        </h3>
+                                        <p class="leading-loose text-zinc-500">
+                                            We continually aim to exceed your expectations in terms of quality. Our system is certified as IS0 9001:2015 and CSA Z299.3 compliant.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="flex -mx-4">
+                                    <div class="px-4 flex items-center">
+                                        <span class="flex items-center justify-center w-16 h-16 mx-auto text-2xl font-bold text-red-600 rounded-full font-heading bg-white">
+                                            4
+                                        </span>
+                                    </div>
+                                    <div class="px-4">
+                                        <h3 class="mt-4 text-xl text-zinc-900 font-semibold">
+                                            Our Customer Focus
+                                        </h3>
+                                        <p class="leading-loose text-zinc-500">
+                                            We pride ourselves on our responsiveness. Our machines and staff are available to you 24/7. While our standard delivery times are 1 to 4 weeks, we do offer to take on rush jobs when possible.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
         </div >
     )
 }

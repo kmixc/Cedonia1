@@ -6,15 +6,15 @@ export default function Services() {
     return (
         <div>
 
-            <div className="bg-gray-100 py-16 sm:py-16 lg:py-16">
-                <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="bg-white pt-16 sm:pt-16 lg:pt-8">
+                <div className="mx-auto max-w-7xl">
                     <div className="sm:text-center">
                         <h2 className="text-lg font-semibold leading-8 text-red-600">Cedonia</h2>
                         <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Services</p>
                     </div>
 
                     <div className="mt-12 max-w-lg sm:mx-auto md:max-w-none">
-                        <div className="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-x-12 md:gap-y-16">
+                        <div className="grid grid-cols-1 gap-y-16 md:grid-cols-2 py-16 md:gap-x-12 md:gap-y-16">
                             <div className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
                                 <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-red-500 text-white sm:shrink-0">
                                     <FaCogs size={"2em"} />
@@ -62,7 +62,6 @@ export default function Services() {
                                     </div>
                                 </div>
                             </div>
-
                             <div className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
                                 <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-red-500 text-white sm:shrink-0">
                                     <FaTools size={"2em"} />
@@ -105,7 +104,6 @@ export default function Services() {
                                     </div>
                                 </div>
                             </div>
-
                             <div className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
                                 <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-red-500 text-white sm:shrink-0">
                                     <FaCertificate size={"2em"} />
@@ -134,7 +132,12 @@ export default function Services() {
                                 </div>
                             </div>
                         </div>
-                        <div className="grid grid-cols-1 gap-y-16 md:grid-cols-1 my-16 md:gap-x-12 md:gap-y-16">
+                    </div>
+                </div>
+
+                <div className='bg-gray-100'>
+                    <div className="mx-auto max-w-7xl">
+                        <div className="grid grid-cols-1 gap-y-16 md:grid-cols-1 py-16 md:gap-x-12 md:gap-y-16">
                             <div className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
                                 <div className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
                                     <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-red-500 text-white sm:shrink-0">
@@ -165,26 +168,35 @@ export default function Services() {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
 
+
+                <div className='bg-gray-200'>
+                    <div className="mx-auto max-w-7xl">
+                        <div className="grid grid-cols-1 gap-y-16 md:grid-cols-1 py-16 md:gap-x-12 md:gap-y-16">
                             <div className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
-                                <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-red-500 text-white sm:shrink-0">
-                                    <FaBalanceScale size={"2em"} />
-                                </div>
-                                <div className="sm:min-w-0 sm:flex-1">
-                                    <p className="text-3xl font-semibold leading-8 text-gray-900">CNC Machining Versus Conventional Machining</p>
-                                    <p className="mt-2 text-base leading-7 text-gray-600 text-justify">
-                                        At Cedonia, we can deliver precision prototypes, as well as high volume requirements. For better production efficiencies, reduced cycle times, and
-                                        identical construction of simple, or complex components, consider our CNC machining services in Mississauga. Due to their automated, programmable,
-                                        computer-controlled features, CNC machines deliver consistent results for all your prototypes and mass fabrication requirements.
-                                    </p>
-                                    <p className="mt-2 text-base leading-7 text-gray-600 text-justify">
-                                        However, if you require unique, custom pieces, reprogramming the CNC machines is time-consuming, tedious and costly. At such times, conventional machining
-                                        is the way to go. Our highly-skilled technicians look forward to understanding your precision and quality requirements. Rest assured, we will deliver the
-                                        products you need at unmatched speed and highly competitive prices.
-                                    </p>
-                                    <p className="mt-2 text-base leading-7 text-gray-600 text-justify">
-                                        To know more about our machining capabilities and how we can serve you better, give us a call today.
-                                    </p>
+                                <div className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
+                                    <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-red-500 text-white sm:shrink-0">
+                                        <FaBalanceScale size={"2em"} />
+                                    </div>
+                                    <div className="sm:min-w-0 sm:flex-1">
+                                        <p className="text-3xl font-semibold leading-8 text-gray-900">CNC Machining Versus Conventional Machining</p>
+                                        <p className="mt-2 text-base leading-7 text-gray-600 text-justify">
+                                            At Cedonia, we can deliver precision prototypes, as well as high volume requirements. For better production efficiencies, reduced cycle times, and
+                                            identical construction of simple, or complex components, consider our CNC machining services in Mississauga. Due to their automated, programmable,
+                                            computer-controlled features, CNC machines deliver consistent results for all your prototypes and mass fabrication requirements.
+                                        </p>
+                                        <p className="mt-2 text-base leading-7 text-gray-600 text-justify">
+                                            However, if you require unique, custom pieces, reprogramming the CNC machines is time-consuming, tedious and costly. At such times, conventional machining
+                                            is the way to go. Our highly-skilled technicians look forward to understanding your precision and quality requirements. Rest assured, we will deliver the
+                                            products you need at unmatched speed and highly competitive prices.
+                                        </p>
+                                        <p className="mt-2 text-base leading-7 text-gray-600 text-justify">
+                                            To know more about our machining capabilities and how we can serve you better, give us a call today.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
 
@@ -192,7 +204,6 @@ export default function Services() {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
