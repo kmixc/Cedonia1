@@ -75,7 +75,7 @@ export default function About() {
                             <div>
                                 <h5 class="text-5xl font-bold text-white">
                                     <span class="inline text-white">
-                                        5692
+                                        89856
                                     </span>
                                     <span class="text-gray-200">
                                         +
@@ -88,7 +88,7 @@ export default function About() {
                             <div>
                                 <h5 class="text-5xl font-bold text-white">
                                     <span class="inline text-white">
-                                        13
+                                        31
                                     </span>
                                     <span class="text-gray-200">
                                         +
@@ -101,7 +101,7 @@ export default function About() {
                             <div>
                                 <h5 class="text-5xl font-bold text-white">
                                     <span class="inline text-white">
-                                        100
+                                        10000
                                     </span>
                                     <span class="text-gray-200">
                                         +
@@ -114,7 +114,7 @@ export default function About() {
                             <div>
                                 <h5 class="text-5xl font-bold text-white">
                                     <span class="inline text-white">
-                                        12
+                                        26
                                     </span>
                                     <span class="text-gray-200">
                                         +

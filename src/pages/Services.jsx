@@ -177,26 +177,26 @@ export default function Services() {
                                     </div>
                                     <div className="sm:min-w-0 sm:flex-1">
                                         <p className="text-3xl font-semibold leading-8 text-zinc-900">Equipment List for Machining Capabilities: Here is an indicative list of the equipment at our 28,000 square foot facility in Mississauga, Ontario:</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ (2x) DECKEL MAHO DMU 100T CNC CONTINUOUS 5 AXIS MILLING CENTRE (Travels: X = 40″ Y = 28″, Z = 28″, C and B Axis)</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ (1x) DECKEL MAHO DMU 85 MONOBLOCK, CNC CONTINUOUS 5 AXIS MILLING CENTRE (Travels: X = 37″ Y = 33.5″, Z = 26″, C and A Axis)</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ (1x) DECKEL MAHO DMU 65 MONOBLOCK, CNC CONTINUOUS 5 AXIS MILLING CENTRE (Travels: X = 29″ Y = 25.5″, Z = 22″, C and A Axis)</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ (1x) DECKEL MAHO DMU60 CNC CONTINUOUS 5 AXIS MILLING CENTRE (Travels: X = 29″ Y = 22″, Z = 22″, C and B Axis)</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ (1x) HAAS VF6 CNC VERTICAL MACHINING CENTRE (Travels: X = 64″ Y = 32″, Z = 38″, +C Axis)</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ (1x) HAAS VF5 CNC VERTICAL MACHINING CENTRE (Travels: X = 50″ Y = 26″, Z = 28″, +C Axis)</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ (1x) (HAAS VF4 CNC VERTICAL MACHINING CENTRE (Travels: X = 50″ Y = 20″, Z = 28″, +C Axis)</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ (1x) FORTUNE CNC LATHE (Turning Dia = 20″x 50″, Bar Capacity: 3.5”)</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ (1x) MAZAK 450M, 2+1 AXIS CNC TURNING/ MILLING CENTER (Dia = 25 x 40″, 4.5” Bore)</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ (1x) MAZAK Quick Turn 250, CNC LATHE (Dia = 12” x 25″)</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ (1x) MAZAK 200 MSY,4 AXIS CNC TURNING/ MILLING CENTER, Y Axis and Sub Spindle (Dia = 12″)</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ (1x) CHARMILLE CNC SINK EDM (Travels: X = 24″ Y = 16″, Z = 18″)</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ (1x) AGIE CHARMILLE CNC DRILL 20 (Travels: X = 16″ Y = 10″, Z = 14″)</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ (1x) SODICK WIRE EDM (Travels: X = 20″ Y = 14″, Z = 13″)</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ (1x) AGIE CLASSIC 3 CNC WIRE EDM (Travels: X = 20″ Y = 14″, Z = 16.8″)</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ CMM- CNC-ZEISS CONTURA (28” X 40” X 23”)</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ CMM- CNC-ZEISS DURAMAX (20” X 20” X 20”)</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ POLI-MANUAL CMM (28” X 30” X 18”)</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ (2x) CONVENTIONAL LATHES</p>
-                                        <p className="mt-2 text-base leading-7 text-zinc-600">✓ 24″ Swing X 160″</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ (2x) DECKEL MAHO DMU 100T CNC CONTINUOUS 5 AXIS MILLING CENTRE (Travels: X = 40″ Y = 28″, Z = 28″, C and B Axis)</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ (1x) DECKEL MAHO DMU 85 MONOBLOCK, CNC CONTINUOUS 5 AXIS MILLING CENTRE (Travels: X = 37″ Y = 33.5″, Z = 26″, C and A Axis)</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ (1x) DECKEL MAHO DMU 65 MONOBLOCK, CNC CONTINUOUS 5 AXIS MILLING CENTRE (Travels: X = 29″ Y = 25.5″, Z = 22″, C and A Axis)</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ (1x) DECKEL MAHO DMU60 CNC CONTINUOUS 5 AXIS MILLING CENTRE (Travels: X = 29″ Y = 22″, Z = 22″, C and B Axis)</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ (1x) HAAS VF6 CNC VERTICAL MACHINING CENTRE (Travels: X = 64″ Y = 32″, Z = 38″, +C Axis)</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ (1x) HAAS VF5 CNC VERTICAL MACHINING CENTRE (Travels: X = 50″ Y = 26″, Z = 28″, +C Axis)</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ (1x) (HAAS VF4 CNC VERTICAL MACHINING CENTRE (Travels: X = 50″ Y = 20″, Z = 28″, +C Axis)</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ (1x) FORTUNE CNC LATHE (Turning Dia = 20″x 50″, Bar Capacity: 3.5”)</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ (1x) MAZAK 450M, 2+1 AXIS CNC TURNING/ MILLING CENTER (Dia = 25 x 40″, 4.5” Bore)</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ (1x) MAZAK Quick Turn 250, CNC LATHE (Dia = 12” x 25″)</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ (1x) MAZAK 200 MSY,4 AXIS CNC TURNING/ MILLING CENTER, Y Axis and Sub Spindle (Dia = 12″)</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ (1x) CHARMILLE CNC SINK EDM (Travels: X = 24″ Y = 16″, Z = 18″)</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ (1x) AGIE CHARMILLE CNC DRILL 20 (Travels: X = 16″ Y = 10″, Z = 14″)</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ (1x) SODICK WIRE EDM (Travels: X = 20″ Y = 14″, Z = 13″)</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ (1x) AGIE CLASSIC 3 CNC WIRE EDM (Travels: X = 20″ Y = 14″, Z = 16.8″)</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ CMM- CNC-ZEISS CONTURA (28” X 40” X 23”)</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ CMM- CNC-ZEISS DURAMAX (20” X 20” X 20”)</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ POLI-MANUAL CMM (28” X 30” X 18”)</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ (2x) CONVENTIONAL LATHES</p>
+                                        <p className="mt-2 text-base leading-7 text-zinc-900">✓ 24″ Swing X 160″</p>
                                     </div>
                                 </div>
                             </div>
