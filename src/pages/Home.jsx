@@ -203,12 +203,12 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="mt-6 space-y-12 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
+                        <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
                             <div className="group relative">
                                 <div className="relative flex items-center justify-center h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
                                     <img
                                         src="https://www.georgiancollege.ca/wp-content/uploads/employers-and-partmers-magna-international-logo-georgian-college-2021-11-05-1024x576.jpg"
-                                        alt="Field Aviation"
+                                        alt="Magna International Inc"
                                         className="h-fit w-80 object-contain object-center"
                                     />
                                 </div>
@@ -223,18 +223,34 @@ export default function Home() {
                             <div className="group relative">
                                 <div className="relative flex items-center justify-center h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
                                     <img
-                                        src="https://pbs.twimg.com/profile_images/699730225513439232/58D1Tlye_400x400.jpg"
-                                        alt="Global Aerospace"
+                                        src="https://cdn.vidyard.com/hubs/logos/62912c08-ec8a-4a6a-933d-78d13bfa0370.png"
+                                        alt="Pure Technologies"
                                         className="h-fit w-80 object-contain object-center"
                                     />
                                 </div>
                                 <h3 className="mt-6 text-sm text-zinc-500">
                                     <a>
                                         <span className="absolute inset-0" />
-                                        International space mission partner and robotics, satellite systems & geointelligence
+                                        Expertise and patented technology-driven solutions
                                     </a>
                                 </h3>
-                                <p className="text-base font-semibold text-zinc-900">MDA Corporation</p>
+                                <p className="text-base font-semibold text-zinc-900">Pure Technologies</p>
+                            </div>
+                            <div className="group relative">
+                                <div className="relative flex items-center justify-center h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                                    <img
+                                        src="https://www.pipeline-journal.net/sites/default/files/CompanyDirectory/300x200_2.png"
+                                        alt="Intero Integrity Services"
+                                        className="h-fit w-52 object-contain object-center"
+                                    />
+                                </div>
+                                <h3 className="mt-6 text-sm text-zinc-500">
+                                    <a>
+                                        <span className="absolute inset-0" />
+                                        Inspection and industrial services specialist
+                                    </a>
+                                </h3>
+                                <p className="text-base font-semibold text-zinc-900">Intero Integrity Services</p>
                             </div>
                         </div>
                     </div>
