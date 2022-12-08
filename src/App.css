@@ -15,6 +15,8 @@ video {
     margin-left: auto;
     margin-right: auto;
     max-width: 1000%;
+    margin-left: 50vw;
+    transform: translate(-50%)
 }
 
 .drop {

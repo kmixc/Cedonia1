@@ -7,8 +7,8 @@ export default function Home() {
     return (
         <div className="isolate bg-white ">
             <main>
-                <div className="relative h-screen myImg">
-                    <div className='hidden sm:flex absolute z-[-60] overflow-hidden'>
+                <div className="relative h-screen">
+                    <div className='flex absolute z-[-60] overflow-hidden'>
                         <video autoPlay muted loop style={{ maxWidth: "1000%" }} id='myVideo'>
                             <source src={Video}></source>
                         </video>
