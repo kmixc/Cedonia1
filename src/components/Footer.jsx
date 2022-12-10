@@ -1,6 +1,7 @@
 import React from 'react'
 import { RiInstagramFill, RiTwitterFill, RiYoutubeFill } from 'react-icons/ri'
 import { AiOutlineMail, AiOutlineHome, AiOutlinePhone } from 'react-icons/ai'
+import Logo from "../img/Cedonia_white.png"
 
 export default function Footer() {
     return (
@@ -10,6 +11,7 @@ export default function Footer() {
                     <div className='flex flex-col items-start'>
                         <span class="text-3xl tracking-tight font-bold">Cedonia</span>
                         <span class="text-m tracking-tight text-sm">Custom machining and project management since 1996</span>
+                        <img src={Logo} alt="Logo" width="200px" className='my-4' />
                     </div>
                     <div>
                         <div className='flex items-start flex-col justify-center'>

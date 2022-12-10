@@ -1,21 +1,21 @@
 import React from 'react'
-import { Fragment } from 'react'
 import { Link } from "react-router-dom";
-import { Disclosure, Menu, Transition } from '@headlessui/react'
+import { Disclosure, } from '@headlessui/react'
 import { FaBars } from 'react-icons/fa'
 import { TfiClose } from 'react-icons/tfi'
+import Logo from "../img/Cedonia.png"
 
 export default function Navbar_Cedonia() {
     return (
         <Disclosure as="nav" className="bg-white">
             {({ open }) => (
                 <>
-                    <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                    <div className="mx-auto max-w-7xl py-5 px-2 sm:px-6 lg:px-8">
                         <div className="relative flex h-16 items-center justify-around">
                             <div className="flex flex-0 items-center justify-center sm:items-stretch sm:justify-start">
                                 <div className="flex flex-shrink-0 items-center">
                                     <Link to='/'>
-                                        <h1 className='text-4xl font-bold text-gray-900 hover:text-red-600'>Cedonia</h1>
+                                        <img src={Logo} alt="Logo" width="200px" />
                                     </Link>
                                 </div>
                             </div>

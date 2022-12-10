@@ -178,7 +178,7 @@ export default function Quality() {
                                     ”
                                 </span>
                             </p>
-                            <div class="flex items-center justify-center mt-4">
+                            <div class="flex items-center justify-center m-4">
                                 <span class="mr-2 text-lg font-semibold text-red-500">
                                     Slobodan Rancic
                                 </span>
