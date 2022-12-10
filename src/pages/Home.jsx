@@ -9,7 +9,7 @@ export default function Home() {
             <main>
                 <div className="relative h-screen">
                     <div className='flex absolute z-[-60] overflow-hidden'>
-                        <video autoPlay muted loop style={{ maxWidth: "1000%" }} id='myVideo'>
+                        <video autoplay="autoplay" loop="loop" muted defaultMuted playsInline style={{ maxWidth: "1000%" }} id='myVideo'>
                             <source src={Video}></source>
                         </video>
                     </div>
