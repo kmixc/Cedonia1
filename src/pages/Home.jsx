@@ -7,9 +7,11 @@ export default function Home() {
     return (
         <div className="isolate bg-white ">
             <main>
-                <div className="relative h-screen overflow-hidden">
-                    <div className='flex z-[-60] overflow-hidden youtube_video'>
-                        <iframe width="1920px" height="980px" id='myVideo' src="https://www.youtube.com/embed/DZUSsE5DFhc?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div className="relative h-screen">
+                    <div className='flex absolute z-[-60] overflow-hidden'>
+                        <video autoPlay muted loop style={{ maxWidth: "1000%" }} id='myVideo'>
+                            <source src={Video}></source>
+                        </video>
                     </div>
                     <div className="mx-auto max-w-3xl pb-32 pt-60 sm:pb-40 drop">
                         <div>
