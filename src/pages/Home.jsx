@@ -259,11 +259,11 @@ export default function Home() {
 
 
             <section>
-                <div class="p-4 bg-zinc-300 max-w-screen sm:p-6 lg:p-8">
+                <div class="py-8 bg-zinc-300 max-w-screen sm:p-6 lg:p-8">
                     <div class="flex flex-wrap ">
                         <div class="w-full px-8 lg:w-1/2 flex items-center">
                             <div class="pb-12 mb-6 lg:mb-0 lg:pb-0">
-                                <h2 class="mb-4 text-6xl font-bold lg:text-6xl text-zinc-900 font-heading">
+                                <h2 class="mb-4 text-5xl font-bold lg:text-6xl text-zinc-900 font-heading">
                                     Why Choose Us?
                                 </h2>
                                 <p class="mb-8 text-xl leading-loose text-zinc-500">
