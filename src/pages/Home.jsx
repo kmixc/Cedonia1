@@ -46,7 +46,7 @@ export default function Home() {
                                         </span>
                                     </a>
                                     <a
-                                        href="/quote"
+                                        href="/contact"
                                         className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-white ring-1 ring-white hover:ring-red-500 hover:text-white transition"
                                     >
                                         Get a Quote
@@ -259,7 +259,7 @@ export default function Home() {
 
 
             <section>
-                <div class="py-8 bg-zinc-300 max-w-screen sm:p-6 lg:p-8">
+                <div class="py-8 bg-zinc-300 max-w-screen sm:p-12 lg:p-12">
                     <div class="flex flex-wrap ">
                         <div class="w-full px-8 lg:w-1/2 flex items-center">
                             <div class="pb-12 mb-6 lg:mb-0 lg:pb-0">
