@@ -53,7 +53,7 @@ export default function Quality() {
                         </p>
                     </div>
                 </div>
-                <img src={File} class="p-4 lg:mx-none md:mx-auto sm:mx-auto h-2/6 sm:w-3/4 md:w-3/5 lg:w-2/6 w-fit lg:block" />
+                <img src={File} class="p-4 lg:mx-none md:mx-auto sm:mx-auto h-2/6 sm:w-3/4 md:w-3/5 lg:w-2/6 w-full lg:block" />
             </div>
 
             <div className='py-16 bg-zinc-100'>

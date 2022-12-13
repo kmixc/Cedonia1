@@ -5,15 +5,14 @@ import { FaCogs, FaUserAlt, FaCertificate, FaTools, FaRocket, FaHandshake, FaLis
 export default function Services() {
     return (
         <div>
-
             <div className="bg-white pt-16 sm:pt-16 lg:pt-8">
                 <div className="mx-auto max-w-7xl">
-                    <div className="sm:text-center">
-                        <h2 className="text-lg font-semibold leading-8 text-red-600">Cedonia</h2>
-                        <p className="mt-2 text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl">Our Services</p>
+                    <div className="text-center">
+                        <h2 className="text-lg font-semibold leading-8 text-xl text-red-600">Cedonia</h2>
+                        <p className="mt-2 text-5xl font-bold tracking-tight text-zinc-900 sm:text-6xl">Our Services</p>
                     </div>
 
-                    <div className="mt-12 max-w-lg sm:mx-auto md:max-w-none">
+                    <div className="mt-12 px-6 max-w-full sm:mx-auto md:max-w-none">
                         <div className="grid grid-cols-1 gap-y-16 md:grid-cols-2 py-16 md:gap-x-12 md:gap-y-16">
                             <div className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
                                 <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-red-500 text-white sm:shrink-0">
@@ -139,7 +138,7 @@ export default function Services() {
 
                 <div className='bg-zinc-100'>
                     <div className="mx-auto max-w-7xl">
-                        <div className="grid grid-cols-1 gap-y-16 md:grid-cols-1 py-16 md:gap-x-12 md:gap-y-16">
+                        <div className="grid grid-cols-1 px-6 gap-y-16 md:grid-cols-1 py-16 md:gap-x-12 md:gap-y-16">
                             <div className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
                                 <div className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
                                     <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-red-500 text-white sm:shrink-0">
@@ -169,7 +168,7 @@ export default function Services() {
 
                 <div className='bg-zinc-200'>
                     <div className="mx-auto max-w-7xl">
-                        <div className="grid grid-cols-1 gap-y-16 md:grid-cols-1 py-16 md:gap-x-12 md:gap-y-16">
+                        <div className="grid grid-cols-1 px-6 gap-y-16 md:grid-cols-1 py-16 md:gap-x-12 md:gap-y-16">
                             <div className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
                                 <div className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
                                     <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-red-500 text-white sm:shrink-0">

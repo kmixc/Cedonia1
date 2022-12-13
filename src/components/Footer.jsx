@@ -37,7 +37,7 @@ export default function Footer() {
                                 <p className='m-1' target="social" href="#">
                                     Mail Us:
                                 </p>
-                                <a href="mailto:" className='text-red-500 underline '>
+                                <a href="mailto:inquiries@cedonia.ca" className='text-red-500 underline '>
                                     inquiries@cedonia.ca
                                 </a>
                             </div>
