@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import File from "../img/3602-7_ENG_Cedonia-Inc.jpg"
 import { FaCoins, FaCheckDouble, FaHandsHelping } from 'react-icons/fa'
-
+import Video from "../img/Website_Video_Spin.mp4"
 
 export default function Quality() {
     return (
@@ -34,6 +34,12 @@ export default function Quality() {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className='flex z-[-60] overflow-hidden bg-white'>
+                <video className='rounded mb-12 lg:w-9/12 sm:w-4/5 max-sm:w-fit' autoplay="autoplay" loop="loop" muted defaultMuted playsInline id='qualityVideo'>
+                    <source src={Video}></source>
+                </video>
             </div>
 
             <div class="bg-zinc-100 flex justify-between lg:flex-row flex-col">
