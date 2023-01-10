@@ -38,7 +38,7 @@ export default function Navbar_Cedonia() {
                                     </Link>
                                 </div>
                             </div>
-                            <div className="hidden lg:flex">
+                            <div className="hidden lg:hidden">
                                 <Link
                                     to="/Quote"
                                     className="inline-block hover:text-red-600 rounded-lg px-3 py-1.5 text-xl font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20"

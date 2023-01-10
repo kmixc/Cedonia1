@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import File from "../img/3602-7_ENG_Cedonia-Inc.jpg"
 import { FaCoins, FaCheckDouble, FaHandsHelping } from 'react-icons/fa'
-import Video from "../img/Website_Video_Spin.mp4"
+import Video from "../img/Website_Video_Spin_2.mp4"
 
 export default function Quality() {
     return (
