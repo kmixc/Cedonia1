@@ -10,8 +10,6 @@ import Footer from "./components/Footer";
 import Quote from "./pages/Quote";
 import Navbar_Cedonia from "./components/Navbar_Cedonia";
 
-
-
 function App() {
   return (
     <div className="App">
