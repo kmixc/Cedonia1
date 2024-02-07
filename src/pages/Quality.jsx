@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import File from "../img/3602-7_ENG_Cedonia-Inc.jpg"
+import File from "../img/intertek.png"
 import PDF_ONE from "../img/3602-7_ENG_Cedonia-Inc.pdf"
-import File_Two from "../img/CG23543-Certificate-of-Registration.png"
+import File_Two from "../img/cgp.png"
 import PDF_TWO from "../img/CG23543-Certificate-of-Registration.pdf"
 import { FaCoins, FaCheckDouble, FaHandsHelping } from 'react-icons/fa'
 import Video from "../img/Website_Video_Spin_2.mp4"
@@ -62,8 +62,8 @@ export default function Quality() {
                         </p>
                     </div>
                 </div>
-                <a href={PDF_ONE} target='PDF' class="p-4 lg:mx-none md:mx-auto sm:mx-auto h-2/6 sm:w-3/4 md:w-3/5 lg:w-2/6 w-full lg:block" ><img src={File} /></a>
-                <a href={PDF_TWO} target='PDF' class="p-4 lg:mx-none md:mx-auto sm:mx-auto h-2/6 sm:w-3/4 md:w-3/5 lg:w-2/6 w-full lg:block" ><img src={File_Two} /></a>
+                <a href={PDF_ONE} target='PDF' class="p-4 lg:mx-none md:mx-auto sm:mx-auto h-2/6 lg:block hover:bg-red-400 rounded-lg ease-in-out duration-300" ><img src={File} /></a>
+                <a href={PDF_TWO} target='PDF' class="p-4 lg:mx-none md:mx-auto sm:mx-auto h-2/6 mt-14 lg:block hover:bg-red-400 rounded-lg ease-in-out duration-300" ><img src={File_Two} /></a>
             </div>
 
             <div className='py-16 bg-zinc-100'>
