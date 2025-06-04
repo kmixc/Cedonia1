@@ -151,7 +151,6 @@ export default function Home() {
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
                         <h2 className="text-2xl font-bold text-zinc-900">Our Clients</h2>
-
                         <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
                             <div className="group relative">
                                 <div className="relative flex items-center justify-center h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
@@ -200,6 +199,25 @@ export default function Home() {
                                     </a>
                                 </h3>
                                 <p className="text-base font-semibold text-zinc-900">Global Aerospace</p>
+                            </div>
+                        </div>
+
+                        <div className="mt-6 space-y-12 lg:grid lg:grid-cols-1 lg:gap-x-6 lg:space-y-0">
+                            <div className="group relative">
+                                <div className="relative flex items-center justify-center h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                                    <img
+                                        src="https://web.timminschamber.on.ca/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=3714"
+                                        alt="Magna International Inc"
+                                        className="h-fit w-80 object-contain object-center"
+                                    />
+                                </div>
+                                <h3 className="mt-6 text-sm text-zinc-500">
+                                    <a>
+                                        <span className="absolute inset-0" />
+                                        Provincial electricity provider for Ontario
+                                    </a>
+                                </h3>
+                                <p className="text-base font-semibold text-zinc-900">Ontario Power Generation</p>
                             </div>
                         </div>
 

@@ -39,29 +39,24 @@ export default function About() {
                                     <div className="group relative px-3">
                                         <div>
                                             <h3 className="mt-2 text-lg text-justify text-gray-900">
-                                                Established in 1996 by owners Aurel Nistor and Valentin Dinoiu as a small, traditional machine shop, Cedonia is now a
-                                                lead player in the custom machining and project management business. Over the years, we have adapted to changing times,
-                                                expanded our capabilities, and invested in superior technology to serve the current and future needs of our customers.
+                                                Established in 1996 by owners Aurel Nistor and Valentin Dinoiu as a small, traditional machine shop, Cedonia has grown into a leading force in custom machining and project management. Over the years, we’ve evolved with the times-expanding our capabilities and investing in advanced technology to meet the ever-changing needs of our clients.
                                             </h3>
                                         </div>
                                     </div>
                                     <div className="group relative px-3">
                                         <div>
                                             <h3 className="mt-2 text-lg text-justify text-gray-900">
-                                                We are a preferred partner for a large, multi-industry client base, including automotive, aerospace, nuclear, military,
-                                                pharmaceutical, mining and construction businesses. We have the machine capabilities and technical expertise to design and
-                                                manufacture complex prototypes, parts and sub-assemblies, also:
+                                                Today, we are a trusted partner to a diverse, multi-industry client base that spans automotive, aerospace, nuclear, military, pharmaceutical, mining, and construction sectors. Our machining capabilities and technical expertise allow us to manufacture complex prototypes, parts, and sub-assemblies while:
                                             </h3>
-                                            <p className="text-md text-red-500">✓ Meeting precision requirements</p>
-                                            <p className="text-md text-red-500">✓ Exceeding quality benchmarks and turnaround</p>
-                                            <p className="text-md text-red-500">✓ Remaining price competitive</p>
+                                            <p className="text-md text-red-500">✓ Meeting strict precision standards</p>
+                                            <p className="text-md text-red-500">✓ Surpassing quality expectations and turnaround times</p>
+                                            <p className="text-md text-red-500">✓ Remaining cost-effective and competitive</p>
                                         </div>
                                     </div>
                                     <div className="group relative px-3">
                                         <div>
                                             <h3 className="mt-2 text-lg text-justify text-gray-900">
-                                                Our goal is to continually hone our skill sets and technological capabilities and be future-ready
-                                                in order to surpass our customer’s evolving requirements and expectations.
+                                                Our mission is to continuously advance our skills and technology so we can stay ahead of industry demands and exceed the expectations of every customer we serve.
                                             </h3>
                                         </div>
                                     </div>

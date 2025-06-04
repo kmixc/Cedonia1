@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import File from "../img/intertek.png"
+import File from "../img/intertek_2025.png"
 import PDF_ONE from "../img/3602-7_ENG_Cedonia-Inc.pdf"
 import File_Two from "../img/cgp.png"
 import PDF_TWO from "../img/CG23543-Certificate-of-Registration.pdf"
